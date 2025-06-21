@@ -1,14 +1,4 @@
-import * as readline from 'node:readline/promises';
-import { stdin as input, stdout as output } from 'node:process';
-const rl = readline.createInterface({ input, output });
-function aiData(reqText){
-const replyText = rl.question(`${reqText}`);
-return replyText;
-rl.close
-}
-
-
-
+import { exec } from 'child_process';
 function executeCommand(command) {
     return new Promise((resolve, reject) => {
         exec(command,function(err,stdout,stderr){
@@ -19,4 +9,4 @@ function executeCommand(command) {
         });
     });
 }
-
+executeCommand("mkdir shiven");
