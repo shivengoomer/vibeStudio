@@ -17,5 +17,16 @@
     "dotenv": "^16.5.0",
     "figlet": "^1.8.1",
     "groq-sdk": "^0.25.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivengoomer/vibeStudio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/shivengoomer/vibeStudio/issues"
+  },
+  "homepage": "https://github.com/shivengoomer/vibeStudio#readme"
 }
+

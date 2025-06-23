@@ -15,6 +15,6 @@ export async function getGroqChatCompletion(prompt) {
 }
 export async function groqReturn(prompt) {
   const chatCompletion = await getGroqChatCompletion(prompt);
-  console.log(chatCompletion.choices[0]?.message?.content || "");
+  return chatCompletion.choices[0]?.message?.content;
 }
 
